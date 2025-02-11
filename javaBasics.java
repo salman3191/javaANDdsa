@@ -1,19 +1,19 @@
-public class javaBasics {
-  public static void trg(int rows, int columns) {
-    for (int i = 1; i <= rows; i++) {
-    for(int j=1;j<=rows-i;j++){
-      System.out.print(" ");
-    }
-    for(int j=1;j<=i;j++){
-      System.out.print("*");
-    }
-
-    System.out.println();
-    }
+public class javaBasics{
+  public static void floydsTrg(int rows){
+    int count=1;
+    for(int i=1;i<=rows;i++){
+      for(int j=1;j<=i;j++){
+        System.out.print(count+" ");
+        count++;
+      }
     
+      
+      System.out.println();
+     
+    }
+   
   }
-
   public static void main(String[] args) {
-   trg(4, 5);
+    floydsTrg(5);
   }
 }
