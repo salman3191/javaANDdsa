@@ -19,7 +19,7 @@ public class subarrays {
      System.out.println("maximun of subarrays sum :"+ms);
     }
     public static void main(String[] args) {
-        int numbers[]={-2,-3,-1,-2,-3};
+        int numbers[]={-2,-3,-1,9,7,8,-2,-3};
         kadanes(numbers);
        
     }
