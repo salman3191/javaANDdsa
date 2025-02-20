@@ -3,7 +3,7 @@ package javaDsa;
 public class bubblesort {
     public static void BubbleSort(int arr[]){
         int n=arr.length;
-        for(int turn=0;turn<n;turn++){
+        for(int turn=0;turn<n-1;turn++){
             for(int j=0;j<n-1-turn;j++){
                 if(arr[j]>arr[j+1]){
                     // swap
