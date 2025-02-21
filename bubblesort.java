@@ -1,5 +1,5 @@
 package javaDsa;
-
+import java.util.*;// or import java.util.Arrays;
 public class bubblesort {
     public static void BubbleSort(int arr[]){
         int n=arr.length;
@@ -54,7 +54,10 @@ public class bubblesort {
     }
     public static void main(String[] args) {
         int arr[]={5,4,1,3,2};
-        insertionSort(arr);
+        // insertionSort(arr);
+        // Arrays.sort(arr);
+      
+        Arrays.sort(arr,0,4);
         printArr(arr);
     }
 }
