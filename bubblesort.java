@@ -79,7 +79,7 @@ public class bubblesort {
         // Arrays.sort(arr,0,4);
         // Arrays.sort(arr,Collections.reverseOrder());
         // Arrays.sort(arr,0,4,Collections.reverseOrder());
-    countingsort(arr);
+        countingsort(arr);
         printArr(arr);
     }
 }
